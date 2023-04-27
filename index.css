@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/Imagens/Fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+hr {
+    border: 10px solid #ddd;
+    text-align: center;
+    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-width: 20px;
+    border-image-repeat: round;
+    border-image-slice: 20%;
+    vertical-align: middle;
+    background-clip: padding-box;
+}
+
+.Subtitulo {
+    color: rgb(252, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+
+.Iconizinho {
+    width: 50px;
+    margin: 15px;
+}
+
+/* Menu */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    height: 75px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    display: flex;
+    background-image: url(/Imagens/BlocoInt.png);
+    border-radius: 3px;
+    height: 55px;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+}
+
+/* Perfil */
+div.Primeira {
+    display: flex;
+    justify-content: center;
+
+}
+
+#Bio {
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 90px;
+    width: max-content;
+    z-index: 1;
+
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    border: 10px solid black;
+    padding: 30px;
+    text-align: center;
+    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-width: 56px;
+    border-image-repeat: round;
+    border-image-slice: 10%;
+    vertical-align: middle;
+    background-clip: padding-box;
+}
+
+.Header img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+#Icone {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#FotoPerfil {
+    padding: 10px;
+    object-fit: cover;
+    background: linear-gradient(to bottom right, #F2913D, #8C4126, #0D0D0D, #0477BF, #0460D9);
+    border-radius: 20%;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: moveUpDown 3s infinite;
+
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#FotoDecorativa {
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+#Icone span {
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* Competencias */
+
+table.habilidades {
+    margin: 0 auto;
+    width: 80%;
+    border-spacing: 48px;
+}
+
+.habilidades td {
+    border: 5px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-width: 20px;
+    border-image-repeat: round;
+    border-image-slice: 20%;
+    vertical-align: middle;
+    background-color: burlywood;
+    background-clip: padding-box;
+}
+
+.habilidades img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.habilidades h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.habilidades p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/*Atuacao*/
+
+.Texto {
+    margin: 0 auto;
+    width: 80%;
+    border-spacing: 48px;
+}
+
+.Texto h2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 20px solid black;
+    border-image-source: url(/Imagens/BlocoT3.png);
+    background-color: burlywood;
+    border-image-width: 20px;
+    border-image-repeat: round;
+    border-image-slice: 20%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    background-clip: padding-box;
+    padding: 10px;
+}
+
+/*Contatos*/
+
+#Contatos {
+    color: white;
+    background-image: url(/Imagens/chão.png);
+    justify-content: center;
+    margin-top: 70px;
+    width: 100%;
+    padding: 15px;
+
+}
+
+#Contatos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+#Redes {
+    margin-right: 178px;
+}
+
+#Contatos a {
+    margin: 10px;
+    width: 60px;
+    height: 50px;
+    padding-left: 100px;
+}
+
+#Contatos a img {
+    border-radius: 10px;
+    width: 50px;
+
+}
