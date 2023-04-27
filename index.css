@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/Imagens/Fundo.webp);
+    background-image: url(./Imagens/Fundo.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -14,7 +14,7 @@ body {
 hr {
     border: 10px solid #ddd;
     text-align: center;
-    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-source: url(./Imagens/BlocoT3.png);
     border-image-width: 20px;
     border-image-repeat: round;
     border-image-slice: 20%;
@@ -56,7 +56,7 @@ nav ul {
 
 nav ul li {
     display: flex;
-    background-image: url(/Imagens/BlocoInt.png);
+    background-image: url(./Imagens/BlocoInt.png);
     border-radius: 3px;
     height: 55px;
     font-size: 18px;
@@ -99,7 +99,7 @@ div.Primeira {
     border: 10px solid black;
     padding: 30px;
     text-align: center;
-    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-source: url(./Imagens/BlocoT3.png);
     border-image-width: 56px;
     border-image-repeat: round;
     border-image-slice: 10%;
@@ -177,7 +177,7 @@ table.habilidades {
     border: 5px solid #ddd;
     padding: 30px;
     text-align: center;
-    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-source: url(./Imagens/BlocoT3.png);
     border-image-width: 20px;
     border-image-repeat: round;
     border-image-slice: 20%;
@@ -219,7 +219,7 @@ table.habilidades {
     justify-content: center;
     display: flex;
     border: 20px solid black;
-    border-image-source: url(/Imagens/BlocoT3.png);
+    border-image-source: url(./Imagens/BlocoT3.png);
     background-color: burlywood;
     border-image-width: 20px;
     border-image-repeat: round;
@@ -235,7 +235,7 @@ table.habilidades {
 
 #Contatos {
     color: white;
-    background-image: url(/Imagens/chão.png);
+    background-image: url(./Imagens/chão.png);
     justify-content: center;
     margin-top: 70px;
     width: 100%;
